@@ -23,7 +23,7 @@ You can now use ES5 syntax supported by the `es5-shim` library.
 ### Notes on Phantomjs and Function.bind
 
 You may choose to use `function () {}.bind` and expect that phantomjs won't
-error out when you execute your test runner (phatomjs does not support
+error out when you execute your test runner (phantomjs does not support
 Function.bind out of the box.
 
 Perhaps try out Function.bind with phantomjs, create a test like so, and
