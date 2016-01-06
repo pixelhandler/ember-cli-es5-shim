@@ -6,9 +6,6 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    this.app.import({
-      development: app.bowerDirectory + '/es5-shim/es5-shim.js',
-      production: app.bowerDirectory + '/es5-shim/es5-shim.min.js'
-    });
+    this.app.import(app.bowerDirectory + '/es5-shim/es5-shim.js');
   }
 };
