@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-es5-shim",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "desc": "An Ember CLI addon to import the es5-shim (using a generator)",
   "main": "index.js",
   "scripts": {
